@@ -23,8 +23,8 @@ const questions: QAProps[] = [
         answer: "We're mobile-first, social-first, and built for the next generation. Chat with friends, join campus leagues, and enjoy true ownership of your winnings onchain.",
     },
     {
-        question: "When does the World Cup tournament start?",
-        answer: "We're launching our World Cup experience in time for the 2026 tournament. Join the waitlist for early access and exclusive launch bonuses.",
+        question: "What tournaments can I play?",
+        answer: "Trophy supports all major football tournaments year-round including Premier League, Champions League, La Liga, and World Cup. New tournaments are added weekly.",
     },
     {
         question: "How do I get started?",

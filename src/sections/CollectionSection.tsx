@@ -7,7 +7,7 @@ export default function CollectionSection() {
             <div className="flex-[1] text-start col gap-4 items-start w-full md:pr-4">
                 <Heading heading="Live Tournaments" subHeading="Join the Action Now" />
                 <span className="text-app_gray/80 text-sm md:text-base leading-relaxed">
-                    From World Cup to Premier League, join tournaments for every major football event. Compete globally or start private leagues with friends. New tournaments launching weekly.
+                    Premier League, Champions League, World Cup - join tournaments for every major football event. Compete globally or start private leagues with friends. New tournaments launching weekly.
                 </span>
                 <Button outline>Browse Tournaments</Button>
             </div>

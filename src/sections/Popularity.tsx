@@ -4,9 +4,9 @@ import { RiWallet3Line } from "react-icons/ri";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 
 const values = [
-    { value: "10", label: "Active Players" },
-    { value: "50", label: "Tournaments" },
-    { value: "200", label: "Teams Created" },
+    { value: "500", label: "Waitlist" },
+    { value: "5", label: "Tournaments" },
+    { value: "50", label: "Early Users" },
 ];
 
 const cards: CardProps[] = [

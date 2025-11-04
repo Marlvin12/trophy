@@ -18,7 +18,7 @@ export default function AboutSection() {
                     subHeading="The Next Generation of Fantasy Football"
                 />
                 <span className="text-app_gray/80 leading-7 md:leading-8 text-base md:text-xl">
-                    Trophy brings real-money fantasy football to mobile, powered by blockchain. We're building for the next generation of sports fans who want to compete, earn, and connect with friends globally. Starting with the World Cup, we're creating the most seamless and social fantasy experience ever built.
+                    Trophy brings real-money fantasy football to mobile, powered by blockchain. Play Premier League, Champions League, World Cup, and all major football tournaments. We're building for the next generation of sports fans who want to compete, earn, and connect with friends globally year-round.
                 </span>
                 <div className="flex flex-wrap gap-2">
                     {tags.map((tag, i) => (
