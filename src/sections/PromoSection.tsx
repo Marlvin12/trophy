@@ -1,6 +1,10 @@
 import Button from "../components/Button";
 
 export default function PromoSection() {
+    const handleWaitlistClick = () => {
+        (window as any).openWaitlist?.();
+    };
+
     return (
         <section className="relative w-full min-h-[350px] md:min-h-[400px] flex flex-row items-end justify-around gap-4 mx-4 md:mx-0">
             <img
@@ -14,7 +18,7 @@ export default function PromoSection() {
                 <span className="text-gray-200 text-xs sm:text-sm md:text-base leading-relaxed">
                     Be first to play. Get exclusive early access to tournaments, special bonuses, and compete in Premier League, Champions League, and World Cup 2026.
                 </span>
-                <Button outline>Join Waitlist</Button>
+                <Button outline onClick={handleWaitlistClick}>Join Waitlist</Button>
             </article>
         </section>
     );

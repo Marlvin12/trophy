@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import Header from "./components/Header";
 import { routes } from "./constants";
 
@@ -11,6 +11,7 @@ import MainSection from "./sections/MainSection";
 import Popularity from "./sections/Popularity";
 import PromoSection from "./sections/PromoSection";
 import Animate from "./components/Animate";
+import WaitlistModal from "./components/WaitlistModal";
 import { theme, APP_BODY_ID } from "./utils";
 
 const Components = [
@@ -26,10 +27,14 @@ const Components = [
 ];
 
 function App() {
+    const [isWaitlistOpen, setIsWaitlistOpen] = useState(false);
+
     useEffect(() => {
         const loader = document.querySelector(".loader");
         if (loader) loader.remove();
         theme.initiate();
+
+        window.openWaitlist = () => setIsWaitlistOpen(true);
     }, []);
 
     return (
@@ -42,6 +47,7 @@ function App() {
                     </Animate>
                 ))}
             </section>
+            <WaitlistModal isOpen={isWaitlistOpen} onClose={() => setIsWaitlistOpen(false)} />
         </main>
     );
 }

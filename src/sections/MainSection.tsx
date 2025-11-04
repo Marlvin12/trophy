@@ -1,6 +1,10 @@
 import Button from "../components/Button";
 
 export default function MainSection() {
+    const handleWaitlistClick = () => {
+        (window as any).openWaitlist?.();
+    };
+
     return (
         <section className="w-full flex flex-col md:flex-row center gap-8 px-4 md:px-0">
             <div className="text md:w-1/2 col gap-6 md:gap-8">
@@ -11,7 +15,7 @@ export default function MainSection() {
                     Build your dream team, compete with friends, and win real money. Play Premier League, World Cup, and all major tournaments. The most social fantasy football experience, powered by blockchain.
                 </span>
                 <div className="flex flex-col sm:flex-row gap-3 md:gap-4 w-full sm:w-auto">
-                    <Button>Join Waitlist</Button>
+                    <Button onClick={handleWaitlistClick}>Join Waitlist</Button>
                     <Button outline={true}>View Tournaments</Button>
                 </div>
             </div>

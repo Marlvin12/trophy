@@ -6,6 +6,10 @@ import ThemeControl from "./sub-components/ThemeControl";
 const links = ["Home", "Tournaments", "How It Works", "FAQ"];
 
 export default function Header() {
+    const handleWaitlistClick = () => {
+        (window as any).openWaitlist?.();
+    };
+
     return (
         <header className="sticky top-0 w-full mt-2 py-3 md:py-4 px-2 md:px-1 min-h-16 row items-center justify-between gap-2 bg-app_bg/80 backdrop-blur-md z-50 rounded-lg">
             <div className="row items-center gap-2">
@@ -28,7 +32,7 @@ export default function Header() {
             <div className="row items-center gap-3 md:gap-12">
                 <ThemeControl />
                 <div className="block">
-                    <Button>Join Waitlist</Button>
+                    <Button onClick={handleWaitlistClick}>Join Waitlist</Button>
                 </div>
             </div>
         </header>
