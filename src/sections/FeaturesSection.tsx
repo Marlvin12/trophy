@@ -20,25 +20,25 @@ const cards = [
 
 export default function FeaturesSection() {
     return (
-        <section className="w-full col center gap-4">
+        <section className="w-full col center gap-6 px-4 md:px-0">
             <Heading
                 heading="How It Works"
                 subHeading="Play, Compete, Win"
                 className="text-center"
             />
-            <div className="row w-full justify-center gap-6">
+            <div className="flex flex-col md:flex-row w-full justify-center gap-4 md:gap-6">
                 {cards.map((card) => (
                     <div
                         key={card.id}
-                        className="bg-gradient-to-br from-white/10 col rounded-2xl items-start gap-4 py-6 px-4 md:flex-1"
+                        className="bg-gradient-to-br from-white/10 col rounded-2xl items-start gap-4 py-6 px-5 md:flex-1 w-full"
                     >
                         <img
-                            className="w-16 h-w-16"
+                            className="w-12 h-12 md:w-16 md:h-16"
                             src={`/assets/${card.id}.png`}
                             alt={card.title}
                         />
-                        <h4 className="font-redzone text-2xl">{card.title}</h4>
-                        <span className="text-app_gray/70">{card.desc}</span>
+                        <h4 className="font-redzone text-xl md:text-2xl">{card.title}</h4>
+                        <span className="text-app_gray/70 text-sm md:text-base">{card.desc}</span>
                     </div>
                 ))}
             </div>

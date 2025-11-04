@@ -2,16 +2,16 @@ import Button from "../components/Button";
 
 export default function PromoSection() {
     return (
-        <section className="relative w-full min-h-[400px] row items-end justify-around gap-4">
+        <section className="relative w-full min-h-[350px] md:min-h-[400px] flex flex-row items-end justify-around gap-4 mx-4 md:mx-0">
             <img
-                className="object-scale-down max-w-[200px] sm:max-w-sm max-h-[inherit] overflow-hidden"
+                className="object-scale-down max-w-[150px] sm:max-w-[200px] md:max-w-sm max-h-[inherit] overflow-hidden"
                 src="/assets/vr-person.webp"
                 alt="vr_person"
             />
-            <div className="bg-gradient-to-bl from-sky-700 via-purple-700 to-blue-800 rounded-3xl p-3 md:p-0 w-full sm:h-[320px] h-full absolute bottom-0 z-[-1] shadow-lg"></div>
-            <article className="col gap-6 items-start justify-center h-[inherit] md:max-w-[40%] m-2 lg:-translate-y-10">
-                <h4 className="font-redzone text-6xl">World Cup 2026</h4>
-                <span className="text-gray-200">
+            <div className="bg-gradient-to-bl from-sky-700 via-purple-700 to-blue-800 rounded-2xl md:rounded-3xl p-3 md:p-0 w-full h-[300px] sm:h-[320px] absolute bottom-0 z-[-1] shadow-lg"></div>
+            <article className="col gap-4 md:gap-6 items-start justify-center h-[inherit] max-w-[50%] md:max-w-[40%] m-2 lg:-translate-y-10">
+                <h4 className="font-redzone text-3xl sm:text-4xl md:text-6xl">World Cup 2026</h4>
+                <span className="text-gray-200 text-xs sm:text-sm md:text-base leading-relaxed">
                     Be ready for the biggest tournament in sports. Join our waitlist for exclusive early access, special tournaments, and launch bonuses.
                 </span>
                 <Button outline>Join Waitlist</Button>
