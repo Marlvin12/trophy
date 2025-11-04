@@ -37,7 +37,7 @@ export default function Popularity() {
                 {values.map((it, i) => (
                     <div key={i} className="text-center">
                         <span className="text-4xl sm:text-6xl md:text-8xl font-redzone flex-1 block">
-                            {it.value}K+
+                            {it.value}
                         </span>
                         <span className="text-sm sm:text-base md:text-xl pt-2 md:pt-4 block">{it.label}</span>
                     </div>
