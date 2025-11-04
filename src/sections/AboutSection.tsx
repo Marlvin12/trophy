@@ -2,10 +2,10 @@ import Heading from "../components/Heading";
 import { SectionProps } from "../types";
 
 const tags = [
-    "Wide range of platforms",
-    "World class artists",
-    "Any type of assets",
-    "Fast payments",
+    "Mobile-First",
+    "Global Community",
+    "Real Money Prizes",
+    "World Cup Ready",
 ];
 
 export default function AboutSection() {
@@ -14,13 +14,11 @@ export default function AboutSection() {
             <div className="text md:w-1/2 col gap-4 my-2">
                 <Heading
                     className="max-w-[90%]"
-                    heading="About Us"
-                    subHeading="Discover more Collect And Sell Rare NFTs"
+                    heading="About Trophy"
+                    subHeading="The Next Generation of Fantasy Football"
                 />
                 <span className="text-app_gray/80 leading-8 text-xl">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, eum
-                    praesentium? Numquam officiis totam consequuntur dignissimos alias,
-                    quae autem!
+                    Trophy brings real-money fantasy football to mobile, powered by blockchain. We're building for the next generation of sports fans who want to compete, earn, and connect with friends globally. Starting with the World Cup, we're creating the most seamless and social fantasy experience ever built.
                 </span>
                 <div className="row gap-2">
                     {tags.map((tag, i) => (
@@ -35,9 +33,9 @@ export default function AboutSection() {
             </div>
             <div className="md:w-1/2 my-2 h-full">
                 <img
-                    src="/assets/robo.png"
-                    alt="robo"
-                    className="object-contain max-w-[80%] max-h-[90%] mx-auto"
+                    src="/assets/world-cup-2026.webp"
+                    alt="world_cup_2026"
+                    className="object-contain max-w-[90%] max-h-[90%] mx-auto drop-shadow-2xl rounded-3xl"
                 />
             </div>
         </section>

@@ -1,23 +1,37 @@
-<p align="center">
-  <a href="#"><img src="https://github.com/mza-codes/minimal-react/blob/62fd10162f49d62abf1aa6b4ec1d5fadbab4a38f/public/logo.png" width="50" alt="logo_m" border="0"></a>
-  <br />
-  <h3 align="center">Vite TypeScript Boilerplate</h3>
-  <p align="center"> Integrated With <strong>tailwindcss!</strong> </p>
-  <p align="center">
-    <b> Includes Extra Fonts Including Poppins!</b>
-    <br />
-    <b> Includes Deployment Script !</b>
-    <br />
-    <b> Based on Yarn, Added Axios & Router-Dom!</b>
-    <br />
-    <b> Feel Free to Use!</b>
-    <br /><br />
-    <a href="https://github.com/mza-codes/"><strong>Author</strong></a>
-    ·
-    <a href="https://github.com/mza-codes/minimal-react/issues/"><strong>Report</strong></a>
-    ·
-    <a href="https://github.com/mza-codes/minimal-react/pulls/"><strong>Pull Request</strong></a>
-  </p>
-</p>
+# Trophy - Onchain Fantasy Football
+
+The next generation of fantasy football. Mobile-first, onchain, and built for sports fans worldwide.
+
+## About
+
+Trophy is a mobile-first, onchain fantasy football platform where users can build teams, join tournaments, and compete with friends for real money prizes. Starting with the World Cup, we're creating the most seamless and social fantasy experience ever built.
+
+## Key Features
+
+- **Build Your Squad**: Draft your dream team from top players worldwide
+- **Play With Friends**: Create private leagues and compete in real-time
+- **Win Real Money**: Transparent, onchain payouts with seamless crypto on/off ramps
+- **Global Community**: Accessible worldwide, compete from anywhere
+- **Mobile-First**: Optimized experience on any device
+
+## Tech Stack
+
+- React + TypeScript + Vite
+- TailwindCSS for styling
+- Modern glassmorphism design
+- Responsive and mobile-optimized
+
+## Getting Started
+
+```bash
+# Install dependencies
+pnpm install
+
+# Run development server
+pnpm dev
+
+# Build for production
+pnpm build
+```
 
 ---

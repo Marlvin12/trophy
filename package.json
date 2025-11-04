@@ -1,7 +1,8 @@
 {
-    "name": "web3-landing",
+    "name": "trophy-football-landing",
+    "description": "Trophy - Onchain Fantasy Football Platform Landing Page",
     "private": true,
-    "version": "0.0.0",
+    "version": "1.0.0",
     "type": "module",
     "scripts": {
         "dev": "vite",

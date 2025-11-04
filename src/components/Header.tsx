@@ -3,7 +3,7 @@ import Button from "./Button";
 import AppLogo from "./sub-components/AppLogo";
 import ThemeControl from "./sub-components/ThemeControl";
 
-const links = ["Home", "Marketplace", "Blog", "Road Map"];
+const links = ["Home", "Tournaments", "How It Works", "FAQ"];
 
 export default function Header() {
     return (
@@ -28,7 +28,7 @@ export default function Header() {
             <div className="row items-center gap-12">
                 <ThemeControl />
                 <div className="hidden sm:block">
-                    <Button>Connect Wallet</Button>
+                    <Button>Join Waitlist</Button>
                 </div>
             </div>
         </header>

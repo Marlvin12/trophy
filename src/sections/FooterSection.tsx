@@ -3,12 +3,12 @@ import { FaGithub, FaBitcoin } from "react-icons/fa";
 import { RiDiscordFill } from "react-icons/ri";
 import { appLinks } from "../constants";
 
-const socialIcons = [AiOutlineTwitter, FaBitcoin, RiDiscordFill, FaGithub];
+const socialIcons = [AiOutlineTwitter, RiDiscordFill];
 
 const links = [
-    ["MarketPlace", "About us", "Our team", "Team Details", "Error 404", "Cart Page"],
-    ["Company", "Wallet", "Create Page", "Login Page", "Registration", "Checkout"],
-    ["Services", "Contact Us", "Shop page", "Shop Details", "Collectors"],
+    ["Platform", "Tournaments", "How It Works", "FAQ", "About Us"],
+    ["Community", "Discord", "Twitter", "Campus Leagues", "Influencer Partners"],
+    ["Resources", "Whitepaper", "Support", "Terms", "Privacy"],
 ];
 
 export default function FooterSection() {
@@ -17,7 +17,10 @@ export default function FooterSection() {
             {/* Left Section */}
             <div className="col gap-4 min-w-[200px] justify-between">
                 <div className="space-y-6">
-                    <h3 className="font-redzone text-4xl">Space.</h3>
+                    <h3 className="font-redzone text-4xl">Trophy</h3>
+                    <p className="text-app_gray text-sm max-w-xs">
+                        The next generation of fantasy football. Mobile-first, onchain, and built for sports fans worldwide.
+                    </p>
                     <div className="row gap-4">
                         {socialIcons.map((Icon, i) => (
                             <a
@@ -32,7 +35,7 @@ export default function FooterSection() {
                 </div>
 
                 <span className="text-app_gray text-sm">
-                    All rights reserved &#169; <b>{new Date().getFullYear()}.</b>
+                    All rights reserved &#169; Trophy <b>{new Date().getFullYear()}.</b>
                 </span>
             </div>
             {/* Right Section */}

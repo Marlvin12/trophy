@@ -4,29 +4,29 @@ import { RiWallet3Line } from "react-icons/ri";
 import { AiOutlineCheckCircle } from "react-icons/ai";
 
 const values = [
-    { value: "1.5", label: "Collections" },
-    { value: "102", label: "Artworks" },
-    { value: "3.2", label: "Artisits" },
+    { value: "10", label: "Active Players" },
+    { value: "50", label: "Tournaments" },
+    { value: "200", label: "Teams Created" },
 ];
 
 const cards: CardProps[] = [
     {
         icon: <MdOutlineVerifiedUser size={44} color="#71dcf5" />,
-        title: "Strong Security",
+        title: "Secure & Transparent",
         description:
-            "Secure transaction and record information with 2-factor authentication (2FA)",
+            "All transactions and gameplay recorded onchain with complete transparency and security",
     },
     {
         icon: <RiWallet3Line size={44} color="#948fe8" />,
-        title: "Payment Options",
+        title: "Easy Crypto On/Off Ramp",
         description:
-            "Flexible payment of methods with Visa, Mastercard, Paypal, bank transfer",
+            "Seamless fiat to crypto conversion. Play with real money without the complexity",
     },
     {
         icon: <AiOutlineCheckCircle size={44} color="#ea9bfa" />,
-        title: "Market Updated",
+        title: "Real-Time Scoring",
         description:
-            "The most accurate and trusted source for market cap, valuation, and cryptocurrency information",
+            "Live updates and leaderboards. Track your team's performance as matches happen worldwide",
     },
 ];
 

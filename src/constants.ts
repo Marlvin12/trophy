@@ -1,11 +1,11 @@
 export const routes = {
     home: "",
     about: "about",
-    collection: "collections",
+    collection: "tournaments",
     faq: "faq",
-    popular: "popular",
-    features: "features",
-    promo: "promotion",
+    popular: "stats",
+    features: "how-it-works",
+    promo: "world-cup",
     footer: "footer",
 };
 

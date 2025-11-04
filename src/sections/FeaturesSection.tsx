@@ -3,18 +3,18 @@ import Heading from "../components/Heading";
 const cards = [
     {
         id: 1,
-        title: "Fueling the Metaverse",
-        desc: "The Metaverse is the next generation of the internet. As of its earliest explorers, You will help fuel its expansion",
+        title: "Build Your Squad",
+        desc: "Draft your dream team from top players worldwide. Make strategic picks, manage your lineup, and compete in real-time tournaments",
     },
     {
         id: 2,
-        title: "Initial Metaverse Offering",
-        desc: "The Metaverse is the next generation of the internet. As of its earliest explorers, You will help fuel its expansion",
+        title: "Play With Friends",
+        desc: "Create private leagues, chat in real-time, and compete with friends. Join global communities or start your own campus league",
     },
     {
         id: 3,
-        title: "Incubation",
-        desc: "The Metaverse is the next generation of the internet. As of its earliest explorers, You will help fuel its expansion",
+        title: "Win Real Money",
+        desc: "Earn from every tournament. Transparent, onchain payouts with seamless crypto on/off ramps. Your winnings, your ownership",
     },
 ];
 
@@ -22,8 +22,8 @@ export default function FeaturesSection() {
     return (
         <section className="w-full col center gap-4">
             <Heading
-                heading="Key Features"
-                subHeading="Access The Future"
+                heading="How It Works"
+                subHeading="Play, Compete, Win"
                 className="text-center"
             />
             <div className="row w-full justify-center gap-6">

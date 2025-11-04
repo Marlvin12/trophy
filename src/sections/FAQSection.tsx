@@ -3,29 +3,36 @@ import QAComponent, { QAProps } from "../components/Q&A";
 
 const questions: QAProps[] = [
     {
-        question: "What is the NFT-X Space?",
+        question: "What is Trophy?",
+        answer: "Trophy is a mobile-first, onchain fantasy football platform where you can build teams, join tournaments, and compete with friends for real money prizes.",
     },
     {
-        question: "Where are your company branches located?",
+        question: "Do I need cryptocurrency to play?",
+        answer: "No! We have seamless fiat on/off ramps. You can deposit with card or bank transfer, and we handle the crypto conversion automatically.",
     },
     {
-        question: "What is metamask?",
+        question: "How do tournaments work?",
+        answer: "Pick your squad, join a tournament, and compete in real-time. Points are awarded based on actual player performance. Top teams win prizes distributed onchain.",
     },
     {
-        question: "How can i buy, sell and mint NFT's?",
+        question: "Is Trophy available globally?",
+        answer: "Yes! Unlike traditional platforms limited to specific regions, Trophy is accessible worldwide. Play from anywhere, compete with anyone.",
     },
     {
-        question: "What's the best selling liquid at the moment?",
+        question: "What makes Trophy different from DraftKings or FanDuel?",
+        answer: "We're mobile-first, social-first, and built for the next generation. Chat with friends, join campus leagues, and enjoy true ownership of your winnings onchain.",
     },
     {
-        question: "What is the Service fee?",
+        question: "When does the World Cup tournament start?",
+        answer: "We're launching our World Cup experience in time for the 2026 tournament. Join the waitlist for early access and exclusive launch bonuses.",
     },
     {
-        question: "How should i Start?",
+        question: "How do I get started?",
+        answer: "Join our waitlist to get early access. We're launching beta with select communities first, starting with college campuses and sports influencer networks.",
     },
     {
-        question: "What is the NFT-X Space?",
-        answer: "NFT-X Space is a newer way of connecting things that seamlessly integrates with the network.",
+        question: "Are there any fees?",
+        answer: "Tournament entry fees vary by competition. We take a small platform fee to maintain the service. All fees are transparent and shown upfront.",
     },
 ];
 
